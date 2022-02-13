@@ -2,13 +2,19 @@
 Given a Pokemon name, returns standard pokemon description along with additional information.
 
 #Installation Instructions
-1. Install Python 3.x
-2. Install pip.
-3. Install Flask.
+1. Install Python 3.x - https://www.python.org/downloads/
+2. Upgrade pip.
+   Python is typically installed in below directory.
+   From cmd, go to C:\Users\<username>\AppData\Local\Programs\Python\Python310
+   Run - python.exe -m pip install --upgrade pip
+4. Install requests and flask.
+    From cmd, go to C:\Users\<username>\AppData\Local\Programs\Python\Python310
+    Run - 'pip install requests'.
+    Run - 'pip install flask'.
 
 #Execution Instructions.
-1. Download code files.
-2. Run 'py pokedexweb.py'.
+1. Download code files to a local directory and extract them.
+2. In cmd, navigate to above folder and Run 'py pokedexweb.py'.
 3. From browser execute http get such as 
 http://localhost:5000/pokemon/ivysaur/
 http://localhost:5000/pokemon/mewtwo/
